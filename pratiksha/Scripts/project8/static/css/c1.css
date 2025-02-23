@@ -1,0 +1,287 @@
+.header-one{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    font-size :15px;
+    padding: 20px;
+    background-color:whitesmoke;
+}
+.header-two{
+    display:flex;
+    justify-content:space-between;
+    font-size:20px;
+    padding:25px
+}
+span{
+        margin-right:20px;
+}
+.brand-title{
+        font-size:30px;
+        font-weight:bold;
+}
+article{
+        background-color:black;
+        color:white;
+        text-align:center;
+        padding:20px;
+        font-size:20px;
+        font-family:arial;
+}
+.bi-lightning-charge-fill{
+        color:gold; 
+}
+ section{
+    /* height: 4900px; */
+    font-family: arial;
+}
+main{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    margin-top: 10px;
+    height:500px;
+    border: 2px solid black;
+    margin-bottom: 5px;
+    padding: 2px;
+    
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+filter: invert(100%);
+}
+.container-fluid{
+  margin: 50px auto;
+  max-width: 1200px;
+ 
+}
+.category-card{
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.category-card img{
+  width: 100%;
+  height: 200%;
+  display: block;
+}
+.category-overlay{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  color: azure;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 60px;
+  margin-bottom: 350px;
+  justify-content: center;
+}
+.para{
+  text-align: center;
+  font-size: 30px;
+  color: rgb(137, 144, 144);
+  margin: 20px 150px ;
+
+}
+.container-fluid2 h1{
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: 150px;
+}
+ 
+.products{
+  margin-bottom: 1500px;
+  margin-right: 50px;
+  float: right;
+}
+.products a{
+  font-weight: bold;
+  color: gold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.container-fluid3{
+  gap: 6px;
+  margin-top: 40px;
+  margin-left: 150px;
+  padding: 1px;
+  display: flex;
+  justify-content: space-between;
+}
+.container-fluid4{
+  gap: 6px;
+  margin-top: 40px;
+  margin-left: 150px;
+  padding: 1px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.timer{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  background-color: aliceblue;
+  width: 400px;
+  height: 100px;
+  margin-top: 30px;
+  margin-left: 40px;
+  padding: 15px;
+}
+.time-box{
+  text-align: center;
+}
+.shop-btn{
+  padding: 10px 20px;
+  border: 1px solid black;
+  background: none;
+  cursor: pointer;
+  margin-left: 40px;
+}
+.shop-btn:hover{
+    background-color: black;
+    color: white;
+} 
+
+.container-fluid5{
+    margin-top: 20px;
+    background-image: url(https://img.freepik.com/premium-photo/woman-pink-denim-jacket-pink-sunglasses-looks-side-against-pink-background_14117-588842.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1800px;
+    height: 600px;
+}
+.container-fluid5 h3{
+    color: rgb(227, 20, 20);
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 50px;
+  
+  }
+  .container-fluid5 h1{
+    color: rgb(17, 16, 16);
+    font-weight: bold;
+    margin-top: 60px;
+    margin-left: 50px;
+    font-size: 50px;}
+.history{
+    margin-bottom: 20px;
+    padding: 40px;
+
+}
+h4{
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #b3a56c; 
+    letter-spacing: 3px;
+
+}
+p {
+    font-size: 18px;
+    color: #7d8793; 
+    line-height:1.6;
+}
+.brand-logo{
+    
+        width: 100%;
+        overflow: hidden;
+        position: absolute;
+
+}
+.logo{
+        
+        display: flex;
+        width: 500%;
+}
+.logo img{
+    max-width: 130px;
+    margin-bottom: 800px;
+    margin-left: 100px;
+}
+.info-section{
+    margin-top: 200px;
+    background-color: rgba(216, 211, 211, 0.877);
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    text-align: center;
+   
+}
+.info-box{
+    text-align: center;
+    max-width: 250px;
+    margin-top: 100px;
+}
+.icon{
+    font-size: 30px;
+    color: rgb(0, 0, 26);
+    margin-top: 25px;
+    padding: 10px;
+}
+.info-title{
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+.info-text{
+    color: #7d8793;
+    display: block;
+    font-size: 16px;
+    margin-left: 26px;
+}
+.footer{
+    margin-top: 20px;
+    background: #f8f8f8;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 15px;
+    border-top: 1px solid #ddd;
+}
+.footer-column{
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+.footer-column h3{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.footer-column input{
+    background: #f8f8f8;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    width: 300px;
+}
+.footer-column ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-column ul li{
+    margin-bottom: 8px;
+}
+.footer-column ul li a{
+    text-decoration: none;
+    color: #333;
+}
+.footer-bottom{
+    margin-top: 100px;
+    text-align: center;
+    padding: 10px;
+    background: #eee;
+    font-size: 15px;
+   
+}
+.all-links{
+    font-size:20px ;
+    gap: 50px;
+    
+}
+.all-links:hover{
+    color: black;
+}

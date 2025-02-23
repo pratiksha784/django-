@@ -1,0 +1,39 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registrationform</title>
+    <link rel="stylesheet" href="{% static 'css/c1.css' %}">
+</head>
+<body>
+    <nav>
+        
+            <div class="logo"> SM</div>
+            <div class="navigation">
+                <div>Home</div>
+                <div>About</div>
+                <div>Notice</div>
+            </div>
+            <button>Register</button> 
+        
+    </nav>
+    <div class="table">
+        <form action="">
+            <fieldset>
+                    
+                        <h2>Registration Form</h2>
+                        <input type="text" placeholder="First Name"><br>
+                        <input type="text" placeholder="Last Name"><br>
+                        <input type="email" placeholder="Email"><br>
+                        <input type="number" placeholder="Mobile Number"><br>
+                        <input type="password" placeholder="Password"><br>
+                        <input type="password" placeholder="Confirm Password">
+                        <button type="submit">Register</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
